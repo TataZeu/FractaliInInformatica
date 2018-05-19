@@ -53,6 +53,10 @@ namespace Baza_programului
                 fulg(13, 300, 10, 100, 356, gobject, pen);
                 fulg(13, 100, 356, 500, 356, gobject, pen);
                 fulg(13, 500, 356, 300, 10, gobject, pen);
+
+
+
+
             }
         }
     }
