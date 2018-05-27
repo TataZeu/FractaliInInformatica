@@ -25,5 +25,12 @@ namespace Baza_programului
             cod = 1;
             f2.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e ) // Sierpinski
+        {
+            Panza f2 = new Panza();
+            cod = 2;
+            f2.ShowDialog();
+        }
     }
 }
