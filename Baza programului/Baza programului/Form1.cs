@@ -17,19 +17,35 @@ namespace Baza_programului
             InitializeComponent();
         }
 
+        Panza f2 = new Panza();
+
         public static int cod;
+        public string text;
+        public static int nivel;
 
         private void Koch_Click(object sender, EventArgs e)
         {
-            Panza f2 = new Panza();
+            
             cod = 1;
+            text = nivelul.Text;
+            nivel = Int32.Parse(nivelul.Text);
             f2.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e ) // Sierpinski
         {
-            Panza f2 = new Panza();
+           
             cod = 2;
+            text = nivelul.Text;
+            nivel = Int32.Parse(nivelul.Text);
+            f2.ShowDialog();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            cod = 3;
+            text = nivelul.Text;
+            nivel = Int32.Parse(nivelul.Text);
             f2.ShowDialog();
         }
     }
