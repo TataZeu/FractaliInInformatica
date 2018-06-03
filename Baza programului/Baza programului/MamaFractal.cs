@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
-
 namespace Baza_programului
 {
     class MamaFractal 
@@ -93,6 +92,12 @@ namespace Baza_programului
               
             }
 
+        } 
+
+        public void copac(float x1, float y1,float x2,float y2)
+        {
+            
+            
         }
 
     }

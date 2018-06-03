@@ -48,5 +48,10 @@ namespace Baza_programului
             nivel = Int32.Parse(nivelul.Text);
             f2.ShowDialog();
         }
+
+        private void Iesire_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
